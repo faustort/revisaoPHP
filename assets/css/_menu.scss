@@ -1,0 +1,18 @@
+ul.menu {
+  list-style: none; // não quero bolinhas a esquerda
+  padding: 0;
+  margin: 0;
+  a {
+    color: orange;
+  }
+}
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
