@@ -13,6 +13,7 @@ if (isset($_SESSION['logado']) && $_SESSION['logado'] == true) {
 if (isset($_POST['titulo'])) {
     $titulo = $_POST['titulo'];
     $descricao = $_POST['descricao'];
+    
 
     // eu preciso do banco!!!
     include __DIR__ . '/../config/db.php';
