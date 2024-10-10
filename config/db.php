@@ -4,7 +4,7 @@ $db_name = "aulaphp";
 $db_user = "root";
 $db_password = "";
 
-$token = "banana"; // salt 
+$token = "abacaxi"; // salt 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db_name", $db_user, $db_password);
