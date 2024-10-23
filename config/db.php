@@ -1,10 +1,8 @@
 <?php 
 $host = "localhost";
 $db_name = "aulaphp";
-//$db_user = "root";
-//$db_password = "";
-$db_user = "banco";
-$db_password = "feliz";
+$db_user = "root";
+$db_password = "";
 
 $token = "abacaxi"; // salt 
 
